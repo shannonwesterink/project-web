@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Dry Brush;
+    src: local ("Dry Brush.ttf") url("Dry Brush.ttf") format(".ttf");
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    padding: 0; 
+    margin: 0; 
+}
+
+header nav {
+    background-color: #FFF;
+    padding: 0em;
+    margin: 0em; 
+
+}
+
+
+header li:first-of-type img {
+    height: 5.6em;
+
+}
+
+header li:nth-of-type(2){
+    font-family: transavicon;
+    font-size: 2.7em;
+    padding-right: 0.3em; 
+}
+ 
+header li a {
+    color: #21d470;
+    -webkit-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none; 
+
+    
+}
+/* langzaam opkomen en langzaam eruit gaan met een tijdloop van 2sec. */
+
+header li a:hover {
+    color: #e83c6b;
+}
+
+header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; 
+    -webkit-box-pack: justify; 
+    -ms-flex-pack: justify; 
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding:0; 
+    border-bottom: solid;
+    border-bottom-color: darkgray; 
+    border-bottom-width: thin; 
+}

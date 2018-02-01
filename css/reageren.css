@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Dry Brush;
+    src: local ("Dry Brush.ttf") url("Dry Brush.ttf") format(".ttf");
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    padding: 0;
+    margin: 0;
+}
+
+
+header nav {
+    background-color: #FFF;
+    padding: 0em;
+    margin: 0em;
+
+}
+
+
+header li:first-of-type img {
+    height: 5.6em;
+
+}
+
+header li:nth-of-type(2) {
+    font-family: transavicon;
+    font-size: 2.7em;
+    padding-right: 0.3em;
+}
+
+header li a {
+    color: #21d470;
+    -webkit-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+
+
+}
+
+/* langzaam opkomen en langzaam eruit gaan met een tijdloop van 2sec. */
+
+header li a:hover {
+    color: #e83c6b;
+}
+
+header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: thin;
+}
+
+
+
+body > nav li a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100;
+    font-family: Nexa Bold;
+    color: white;
+
+
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+
+body {
+    margin: 0em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 27em;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Nexa;
+    color: #e83c6b;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+}
+
+section:first-of-type {
+    background-image: url(ali-inay-2273.jpg);
+    background-size: 100%;
+
+}
+
+
+
+section:nth-of-type(2) {
+    font-family: transavicon;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #2A3283;
+    border-radius: 2em;
+    width: 5em;
+    margin: 0 auto;
+    margin-top: -1.6em;
+    color: white;
+    position: sticky;
+    z-index: 99;
+
+
+}
+
+
+section span {
+    padding: 0 0.5em 0 0.5em;
+    font-size: 1.5em;
+
+}
+
+section > button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+section > button > img {
+    width: 2.5em;
+}
+
+p {
+    color: black;
+    text-align: left;
+    border-radius: 1em;
+    padding: 2em;
+    background-color: bisque;
+    max-width: 33em;
+    max-height: 10em;
+    font-family: Nexa;
+}
+
+p.hidden {
+    display: none !important;
+}
+
+article {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+textarea {
+    margin: 0 2em; 
+    resize: none;
+    width: calc(100% - 4em);
+    margin-top: 1em; 
+    
+}
+
+}
+
+section span:nth-of-type(2) {
+    color: #e83c6b;
+
+}
+
+input:first-of-type {border-radius: 1em;
+    width: 8em;
+    font-family: Nexa;
+    background-color: #e83c6b;
+    color: white;
+    font-size: 0.8em;
+    height: 2em;
+    margin-top: 2em; 
+    margin-left: 2em; 
+    
+}
+h2{
+    font-size: 1em; 
+}
+
+
+#plane-animation {
+    display: none;
+    width: 100vw;
+}
+
+#plane-animation.show {
+    display: block;
+}
+
+@media screen and ( min-width: 30em) {
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        margin-top: -1em;
+    
+    }
+
+    p {
+        margin-top: 1em;
+        padding: 1em;
+        
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #plane-animation {
+        max-width: 26em;
+        height: 6rem;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and ( min-width: 48em) {
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    input {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
