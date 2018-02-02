@@ -114,7 +114,7 @@ main nav {
 
 }
 
-body > nav li i {
+body > nav li span {
     font-family: transavicon;
     text-align: center;
     color: white;
