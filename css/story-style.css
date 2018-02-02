@@ -182,6 +182,7 @@ main img:nth-of-type(2){
 main img:nth-of-type(3){
     display: none; 
 }
+
     
 @media screen and ( min-width: 45em) {
     main img:first-of-type{
@@ -201,6 +202,9 @@ main img:nth-of-type(3){
         }
     
     }
+  p{
+            margin-top: -1em; 
+        }
     
     @media screen and ( min-width: 61em) {
         
@@ -218,6 +222,9 @@ main img:nth-of-type(3){
     }
         h1{
             font-size: 6em; 
+        }
+        p{
+            margin-top: -5em; 
         }
     
     }
